@@ -1,0 +1,129 @@
+/*general style start*/
+body {
+	background-color: #f6f6f6;
+}
+.orange-font {
+	color: #ff6700;
+}
+.well {
+	background-color: #fff;
+}
+.navbar-fixed-top{
+
+}
+.navbar-inner {
+	/*padding-top: 20px;
+	background-color: #000;*/
+}
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 1170px;
+}
+
+.navbar .brand {
+	margin: 0;
+	/*padding: 10px 20px;*/
+	padding: 15px 28px 5px 5px;
+	background-color: #b81f22;
+}
+.navbar .pull-right li a {
+	color: #b81f22;
+}
+.nav-collapse.collapse {
+	padding-top: 20px;
+}
+
+ul li {
+	list-style: none;
+}
+.featurette-divider {
+	margin: 40px;
+	border-bottom: 1px solid #fbefef;
+}
+a {
+	color: #555555;
+}
+a:hover, 
+a:focus,
+.footer .pull-right a {
+	color: #b81f22;
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus, 
+.dropdown-submenu:hover > a, 
+.dropdown-submenu:focus > a ,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus{
+	background-image: none;
+	background-color: #b81f22;
+}
+.dropdown-menu > li > a {
+	background-image: 
+}
+.footer {
+	padding: 30px 0;
+	border-top: 1px solid #E5E5E5;
+}
+.nav-list > .active > a, 
+.nav-list > .active > a:hover, 
+.nav-list > .active > a:focus {
+	background-color: #b81f22;
+}
+.box{
+	padding-bottom: 60px;
+}
+.nav-address {
+	font-size: 12px;
+	line-height: 20px;
+}
+.nav-info {
+	margin: 5px -15px 0;
+	padding: 3px 15px 3px 40px;
+	font-size: 14px;
+	color: #999;
+}
+/*general style end*/
+
+/*homtpage start*/
+.carousel .item,
+.carousel img {
+	height: 500px;
+}
+.carousel-caption {
+	margin-top: 200px;
+}
+.marketing a {
+	display: block;
+}
+.marketing .well {
+	margin: 0;
+}
+.marketing .well .pull-right {
+	padding-top: 15px;
+}
+.marketing .thumbnails p {
+	text-indent: 30px;
+	text-align: left;
+}
+.marketing .box {
+	text-align: left;
+	padding: 0 20px;
+}
+.marketing dt{
+	margin-top: 6px;
+}
+.marketing dd{
+	padding-top: 2px;
+}
+.indent {
+	text-indent: 45px;
+}
+/*homtpage end*/
+/* inner page*/
+.container  .about {
+	background: url("../img/promotions/about.jpg") no-repeat;
+	padding-top: 20px;
+	padding-right: 250px;
+}
