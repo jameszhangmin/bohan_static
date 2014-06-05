@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>关于我们</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../myassets/css/bootstrap.css" rel="stylesheet">
+    <link href="../myassets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="../myassets/css/homepage.css" rel="stylesheet">
+	<link href="../myassets/css/main.css" rel="stylesheet">
+	<style>
+      body {
+        padding-top: 90px; /* 90px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../myassets/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- NAVBAR
+    ================================================== -->
+   <div class="navbar-wrapper">
+
+    <div class="navbar navbar-invers navbar-fixed-top">
+       <div class="navbar-inner">
+		<!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+        <div class="container">
+		<div class="row">
+			<div class="span3">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+			<a href="index.html" class='brand'><img src='../myassets/img/bh_logo.jpg' /></a>
+			</div>
+			<div class="span9">
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+			
+			<div class="nav-collapse collapse">
+              <ul class="nav">
+				<li><a href="index.html">Home</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
+				<li class="dropdown active">
+				  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About US<b class="caret"></b></a>
+				  <ul class="dropdown-menu">
+					<li><a href="about-intro.html">Company Profile</a></li>
+					<li><a href="about-concept.html">Company Philosophy</a></li>
+					<li><a href="about-team.html">Our Team</a></li>
+					<li><a href="about-contact.html">Contact Us</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Core Business<b class="caret"></b></a>
+				  <ul class="dropdown-menu">
+					<li><a href="business-1.html">International Freight Forwarder</a></li>
+					<li><a href="business-2.html">International Express Delivery</a></li>
+					<li><a href="business-3.html">Customs Declaration & Commodity Inspection</a></li>
+					<li><a href="business-4.html">Warehousing</a></li>
+				  </ul>
+				</li>
+				<li><a href="products.html">Our Client</a></li>
+				<li><a href="#">Careers</a></li>
+              </ul>
+              <ul class="nav pull-right">
+				<li class="divider-vertical"></li>
+				<li><a href="../index.html">中文</a></li>				
+			  </ul>
+			  <ul class="nav pull-right">
+				<li class="divider-vertical"></li>
+				<li><a href="javascript:void(0)" onclick="add_favorite(this);">favorite</a></li>				
+			  </ul>
+			  
+            </div><!--/.nav-collapse -->
+			</div>
+		</div>
+		</div> <!-- /.container -->
+        </div><!-- /.navbar-inner -->
+    </div><!-- /.navbar -->
+
+
+    </div><!-- /.navbar-wrapper -->
+
+
+	<div class="container">
+		<div class="row">
+		<div class="span3">
+          <div class="well nav nav-pills nav-stacked">
+            <h4>About US</h4>
+            <ul class="nav nav-list">
+              <li class="active"><a href="about-intro.html">Company Profile</a></li>
+              <li><a href="about-concept.html">Company Philosophy</a></li>
+              <li><a href="about-team.html">Our Team</a></li>
+              <li><a href="about-contact.html">Contact Us</a></li>
+            </ul>
+          </div><!--/.well -->
+		  <div class="well">
+			  <h4>Contact Us</h4>
+              <div>Switchboard :+86-21-68356006</div>
+			  <div>Fax:+86-21-68356505</div>
+			  <div>E-mail:info@bh-link.com</div>
+			  <div class='nav-address'>Room 305, the Finance Center, No. 1000 Qihang Road, Shanghai </div>
+		  </div><!--/.well -->
+        </div>
+
+		<div class="span9">
+		<div class="well">
+			<ul class="breadcrumb">
+			  <li><a href="#">About US</a> <span class="divider">/</span></li>
+			  <li class="active">Company Profile</li>
+			</ul>
+			<div class="hero-unit about">
+				<p style="height:200px"></p>
+				<!--
+				<h1>关于我们</h1>
+				<p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+			-->
+			</div>
+			<hr class="featurette-divider">
+			<div class="marketing box">
+				<h2 class="orange-font">Company Profile</h2>
+				<p class="lead indent">
+				Founded in 2005, HB International Cargo Transportation Co., Ltd. is located in the Pudong International Airport Comprehensive Bonded Area of China (Shanghai) Pilot Free Trade Zone. The Company has contracted an express warehouse and a bonded warehouse and operates as a comprehensive logistics service provider ranging from international trade, air transport, marine transport, express delivery, customs clearance and warehousing. The Company not only has the Grade I qualification as of a cargo transportation agent, but also acts as one of the licensed dealers of China civil aviation international shipping services. Moreover, approved by the Customs House as a Category A customs broker, the Company holds the professional import/export declaration qualifications that are registered in and approved by the Customs House. At present, the Company is applying for the formalities as of a Category AA customs broker, which is deemed a solid step forward for the Company to become a standardized and international service provider.
+				</p>
+				<p class="lead indent">
+				By virtue of the well-developed domestic and international freight forwarder networks, the Company delivers the services covering the customs declaration and transportation of the imported and exported international cargos. With the right to engage in import and export trade, the Company provides customers with the value-added services covering, among other things, the import/export trade agency and works out the sound and integrated solutions of foreign trade agency and international logistics.
+				</p>
+				<p class="lead indent">
+				The Company adheres to such core management concept as to be a “Trustworthy, Professional and Efficient” service provider and works with such business philosophy as to “Keep Making Innovative and Sustainable Development”. In order to render more professional, meticulous and caring services to customers, we’ve built up a sophisticated logistics information service platform and realized a seamless linkage of various segments of the logistics supply chain as well as the real-time information inquiries, which help customers to save their logistic costs. Thanks to the outstanding professional quality, expertise and efficient teamwork and well-developed service systems, we take the initiatives to create the favorable win-win situations together with our customers.
+				</p>
+			</div>
+				
+		</div>
+		</div>
+		</div>
+    </div><!-- /.container -->
+	
+	 <!-- FOOTER -->
+	<footer class="footer clearfix">
+		<div class="container">
+		<p class="pull-right"><a href="#">Back to top</a></p>
+		<p class="pull-left">© BH International Cargo Transportation CO.,Ltd. · Room 305, the Finance Center, No. 1000 Qihang Road, Shanghai  · Switchboard :+86-21-68356006</p>
+		</div>
+	</footer>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../myassets/js/jquery.js"></script>
+    <script src="../myassets/js/bootstrap-transition.js"></script>
+    <script src="../myassets/js/bootstrap-alert.js"></script>
+    <script src="../myassets/js/bootstrap-modal.js"></script>
+    <script src="../myassets/js/bootstrap-dropdown.js"></script>
+    <script src="../myassets/js/bootstrap-scrollspy.js"></script>
+    <script src="../myassets/js/bootstrap-tab.js"></script>
+    <script src="../myassets/js/bootstrap-tooltip.js"></script>
+    <script src="../myassets/js/bootstrap-popover.js"></script>
+    <script src="../myassets/js/bootstrap-button.js"></script>
+    <script src="../myassets/js/bootstrap-collapse.js"></script>
+    <script src="../myassets/js/bootstrap-carousel.js"></script>
+    <script src="../myassets/js/bootstrap-typeahead.js"></script>
+    <script src="../myassets/js/holder.js"></script>
+	<script src="../myassets/js/utils.js"></script>  
+
+
+</body>
+</html>
