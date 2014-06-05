@@ -127,3 +127,18 @@ a:focus,
 	padding-top: 20px;
 	padding-right: 250px;
 }
+.container  .business1 {
+	background: url("../img/promotions/business_1.jpg") no-repeat;
+	padding-top: 20px;
+	padding-right: 250px;
+}
+.container  .business2 {
+	background: url("../img/promotions/business_2.jpg") no-repeat;
+	padding-top: 20px;
+	padding-right: 250px;
+}
+.container  .business3 {
+	background: url("../img/promotions/business_3.jpg") no-repeat;
+	padding-top: 20px;
+	padding-right: 250px;
+}
